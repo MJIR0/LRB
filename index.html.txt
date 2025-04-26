@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LRB Cables - More Than Trust</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Roboto', sans-serif; line-height: 1.6; color: #333; }
+    header { background: #004aad; color: white; padding: 20px 0; text-align: center; }
+    header img { width: 150px; height: auto; margin-bottom: 10px; }
+    nav { background: #003080; display: flex; justify-content: center; flex-wrap: wrap; }
+    nav a { color: white; padding: 15px 20px; text-decoration: none; font-weight: bold; }
+    nav a:hover { background: #002060; }
+    .hero { background: url('https://images.unsplash.com/photo-1605810230434-7631b0c667b8?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover; height: 400px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2.5rem; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); }
+    section { padding: 60px 20px; max-width: 1200px; margin: auto; }
+    .products, .news { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .card { background: #f4f4f4; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    footer { background: #003080; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="/mnt/data/Screenshot 2025-04-25 230647.png" alt="LRB Cables Logo">
+  <h1>LRB Cables</h1>
+  <p>More Than Trust</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#products">Products</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+  Welcome to LRB Cables
+</div>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>LRB Cables is committed to delivering high-quality cable products and solutions that empower industries and individuals. With years of experience, LRB Cables stands as a symbol of trust, innovation, and excellence in the cable manufacturing sector.</p>
+</section>
+
+<section id="products">
+  <h2>Our Products</h2>
+  <div class="products">
+    <div class="card">Power Cables</div>
+    <div class="card">Communication Cables</div>
+    <div class="card">Fiber Optic Cables</div>
+    <div class="card">Specialty Cables</div>
+  </div>
+</section>
+
+<section id="news">
+  <h2>Latest News</h2>
+  <div class="news">
+    <div class="card">LRB Cables wins National Award 2025</div>
+    <div class="card">New state-of-the-art factory launched in Dhaka</div>
+    <div class="card">Achieved ISO 9001:2025 Certification</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: info@lrbcables.com | Phone: +880 1234-567890</p>
+  <p>Address: Dhaka, Bangladesh</p>
+</section>
+
+<footer>
+  &copy; 2025 LRB Cables. All rights reserved.
+</footer>
+
+</body>
+</html>
